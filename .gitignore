@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.log
+
+__pycache__/
+
+node_modules/
+
+temp/

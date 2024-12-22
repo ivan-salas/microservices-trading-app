@@ -79,6 +79,19 @@ Directory Structure:
 4. **Logging Service**: Logging and monitoring.
 
 ---
+## **Graph App-Map**
+
+```mermaid
+graph TD
+    User -->|Request| APIGateway
+    APIGateway -->|Routes| UserService[User Service]
+    APIGateway -->|Routes| BotService[Bot Service]
+    APIGateway -->|Routes| MarketDataService[Market Data Service]
+    UserService --> PostgreSQL[(PostgreSQL Database)]
+    MarketDataService --> ExternalAPI[External Market API]
+    BotService --> Redis[(Redis Cache)]
+```
+---
 
 ## **Getting Started**
 1. Clone the repository:

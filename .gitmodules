@@ -1,0 +1,3 @@
+[submodule "services/services/api-gateway"]
+	path = services/services/api-gateway
+	url = https://github.com/ivan-salas/trading-app-gateway.git

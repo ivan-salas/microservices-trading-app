@@ -1,3 +1,6 @@
 [submodule "services/api-gateway"]
 	path = services/api-gateway
 	url = https://github.com/ivan-salas/trading-app-gateway.git
+[submodule "services/user-service"]
+	path = services/user-service
+	url = https://github.com/ivan-salas/trading-app-user-service.git

@@ -93,6 +93,14 @@ graph TD
 ```
 ---
 
+## **API Gateway Features**
+- **Authentication**: Validates JWT tokens for secure communication.
+- **Logging**: Uses `nestjs-pino` for structured JSON logs.
+- **Routing**: Proxies requests to the appropriate microservices.
+- **Future-proofing**: Modular design to accommodate new microservices easily.
+
+---
+
 ## **Getting Started**
 1. Clone the repository:
    ```bash
